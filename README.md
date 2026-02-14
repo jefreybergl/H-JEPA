@@ -1,7 +1,5 @@
 # H-JEPA: Learning Hamiltonian Dynamics on Latent Video Embeddings
 
-**Jefrey Bergl** — University of North Carolina at Chapel Hill
-
 H-JEPA enforces Hamiltonian mechanics in the latent space of a pre-trained video encoder ([V-JEPA 2](https://github.com/facebookresearch/vjepa)). Instead of learning an unconstrained next-state predictor, it learns a scalar energy function H(q, p) and evolves states via a symplectic Stormer-Verlet (leapfrog) integrator — guaranteeing bounded energy drift over long rollouts by construction.
 
 ## Key idea
